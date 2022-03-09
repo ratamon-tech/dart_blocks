@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 height: double.infinity,
                 width: 100.0,
                 color: Colors.red,
-                child: Text('container1'),
+                child: Text('row_container1'),
               ),
               Container(
                 child: Column(
@@ -30,11 +30,13 @@ class MyApp extends StatelessWidget {
                       height: 100.0,
                       width: 100.0,
                       color: Colors.yellow,
+                      child: Text('column_container1'),
                     ),
                     Container(
                       height: 100.0,
                       width: 100.0,
                       color: Colors.green,
+                      child: Text('column_container2'),
                     )
                   ],
                 ),
@@ -43,7 +45,7 @@ class MyApp extends StatelessWidget {
                 height: double.infinity,
                 width: 100.0,
                 color: Colors.blue,
-                child: Text('container1'),
+                child: Text('row_container2'),
               )
             ],
           )
